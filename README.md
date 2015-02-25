@@ -13,4 +13,4 @@ We can find the scale named Pentatonic Major. From this we can see alternare nam
 
 In the chords section we can search for a chord by the name, for example a Diminished 7th and see thatit's also known as a Dimished. The chord is made up of a root, flattend 3rd, flattened fifth and a flattened flattened 7th (shown as a sixth for simplicity of parsing the data).
 
-I havne't verified all scales and chords since I wrote this, so obviously if you find a mistake please let me know and I'll update accordindly when time permits.
+I haven't verified all scales and chords since I wrote this, so obviously if you find a mistake please let me know and I'll update accordindly when time permits.
