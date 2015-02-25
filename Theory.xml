@@ -1,0 +1,1948 @@
+<?xml version="1.0" encoding="utf-8"?>
+<theory>
+	<!-- Scales section -->
+	<scale name="Chromatic">
+		<description>
+		This scale is made up of every musical note.
+		</description>
+		<pattern>
+			<step value="1" />
+			<step value="1" />
+			<step value="1" />
+			<step value="1" />
+			<step value="1" />
+			<step value="1" />
+			<step value="1" />
+			<step value="1" />
+			<step value="1" />
+			<step value="1" />
+			<step value="1" />
+			<step value="1" />
+		</pattern>
+	</scale>	
+	<scale name="Chromatic Dorian">
+		<pattern>
+			<step value="1" />
+			<step value="1" />
+			<step value="3" />
+			<step value="2" />
+			<step value="1" />
+			<step value="1" />
+			<step value="3" />
+		</pattern>
+	</scale>	
+	<scale name="Chromatic Hypodorian Inverse">
+		<pattern>
+			<step value="3" />
+			<step value="1" />
+			<step value="1" />
+			<step value="3" />
+			<step value="1" />
+			<step value="1" />
+			<step value="2" />
+		</pattern>
+	</scale>	
+	<scale name="Chromatic Hypodorian">
+		<alternative name="Purvi" />
+		<pattern>
+			<step value="2" />
+			<step value="1" />
+			<step value="1" />
+			<step value="3" />
+			<step value="1" />
+			<step value="1" />
+			<step value="3" />
+		</pattern>
+	</scale>	
+	<scale name="Chromatic Hypolydian Inverse">
+		<alternative name="Persian 1" />
+		<pattern>
+			<step value="1" />
+			<step value="3" />
+			<step value="1" />
+			<step value="1" />
+			<step value="2" />
+			<step value="3" />
+			<step value="1" />
+		</pattern>
+	</scale>	
+	<scale name="Chromatic Hypolydian">
+		<pattern>
+			<step value="1" />
+			<step value="3" />
+			<step value="2" />
+			<step value="1" />
+			<step value="1" />
+			<step value="3" />
+			<step value="1" />
+		</pattern>
+	</scale>	
+	<scale name="Chromatic Hypophyrgian Inverse">
+		<pattern>
+			<step value="1" />
+			<step value="1" />
+			<step value="3" />
+			<step value="1" />
+			<step value="1" />
+			<step value="2" />
+			<step value="3" />
+		</pattern>
+	</scale>	
+	<scale name="Chromatic Hypophyrgian">
+		<pattern>
+			<step value="3" />
+			<step value="2" />
+			<step value="1" />
+			<step value="1" />
+			<step value="3" />
+			<step value="1" />
+			<step value="1" />
+		</pattern>
+	</scale>	
+	<scale name="Chromatic Lydian Inverse">
+		<alternative name="Todi" />
+		<alternative name="Todi (Raga)" />
+		<pattern>
+			<step value="1" />
+			<step value="2" />
+			<step value="3" />
+			<step value="1" />
+			<step value="1" />
+			<step value="3" />
+			<step value="1" />
+		</pattern>
+	</scale>	
+	<scale name="Chromatic Lydian">
+		<pattern>
+			<step value="1" />
+			<step value="3" />
+			<step value="1" />
+			<step value="1" />
+			<step value="3" />
+			<step value="2" />
+			<step value="1" />
+		</pattern>
+	</scale>	
+	<scale name="Chromatic Mixolydian Inverse">
+		<pattern>
+			<step value="2" />
+			<step value="3" />
+			<step value="1" />
+			<step value="1" />
+			<step value="3" />
+			<step value="1" />
+			<step value="1" />
+		</pattern>
+	</scale>	
+	<scale name="Chromatic Mixolydian">
+		<pattern>
+			<step value="1" />
+			<step value="1" />
+			<step value="3" />
+			<step value="1" />
+			<step value="1" />
+			<step value="3" />
+			<step value="2" />
+		</pattern>
+	</scale>	
+	<scale name="Chromatic Phrygian Inverse">
+		<pattern>
+			<step value="1" />
+			<step value="1" />
+			<step value="2" />
+			<step value="3" />
+			<step value="1" />
+			<step value="1" />
+			<step value="3" />
+		</pattern>
+	</scale>	
+	<scale name="Chromatic Phrygian">
+		<pattern>
+			<step value="3" />
+			<step value="1" />
+			<step value="1" />
+			<step value="3" />
+			<step value="2" />
+			<step value="1" />
+			<step value="1" />
+		</pattern>
+	</scale>	
+	<scale name="Major">
+		<alternative name="Ionian" />
+		<alternative name="Major Diatonic" />
+		<pattern>
+			<step value="2">
+				<alternative name="Major" />
+				<mode name="Ionian" />
+			</step>
+			<step value="2">
+				<alternative name="Major Inverse" />
+				<mode name="Dorian" />
+			</step>
+			<step value="1">
+				<alternative name="Mischung 5" />
+				<alternative name="Eskimo Heptatonic" />
+				<description>Used to give a Spanish flavour</description>
+				<mode name="Phrygian" />
+			</step>
+			<step value="2">
+				<alternative name="Ghana Heptatonic" />
+				<alternative name="Peruvian Major" />
+				<alternative name="4th Plagal Byzantine" />
+				<mode name="Lydian" />
+			</step>
+			<step value="2">
+				<mode name="Mixolydian"/>
+			</step>
+			<step value="2">
+				<alternative name="Natural Minor">
+					<description>The natural minor scale is the same as the Aeolian mode</description>
+				</alternative>
+				<alternative name="Minor" />
+				<alternative name="Algerian (2nd Octave)" />
+				<alternative name="Peruvian Minor" />
+				<mode name="Aeolian"/>
+			</step>
+			<step value="1">
+				<mode name="Locrian" />
+			</step>
+		</pattern>
+	</scale>
+	<scale name="Pentatonic Major">
+		<alternative name="Ghana Pentatonic 2" />
+		<alternative name="Mongolian" />
+		<alternative name="Chinese 1" />
+		<alternative name="Peruvian Pentatonic 1" />
+		<pattern>
+			<step value="2">
+				<mode name="Pentatonic Major"/>
+			</step>
+			<step value="2">
+				<mode name="Egyptian"/>
+			</step>
+			<step value="3" />
+			<step value="2">
+				<mode name="Ritusen Japan" />
+			</step>
+			<step value="3">
+				<mode name="Pentatonic Minor"/>
+			</step>
+		</pattern>
+	</scale>
+	<scale name="Melodic Minor">
+		<alternative name="Jazz Minor" />
+		<pattern>
+			<step value="2">
+				<mode name="Melodic Minor" />
+			</step>			
+			<step value="1">
+				<mode name="Phrygian #6" />
+			</step>
+			<step value="2">
+				<mode name="Lydian Augmented" />
+			</step>
+			<step value="2">
+				<mode name="Overtone" />
+			</step>
+			<step value="2">
+				<mode name="Hindustan" />
+			</step>
+			<step value="2">
+				<mode name="Locrian #2" />
+			</step>
+			<step value="1">
+				<mode name="Superlocrian" />
+			</step>
+		</pattern>
+	</scale>
+	<scale name="Major Minor Mixed">
+		<pattern>
+			<step value="2" />
+			<step value="1" />
+			<step value="1" />
+			<step value="1" />
+			<step value="2" />
+			<step value="1" />
+			<step value="1" />
+			<step value="1" />
+			<step value="1" />
+			<step value="1" />
+		</pattern>
+	</scale>
+	<scale name="Warao Diatonic">
+		<pattern>
+			<step value="10" />
+			<step value="2" />
+		</pattern>
+	</scale>
+	<scale name="Warao Tritonic">
+		<pattern>
+			<step value="5" />
+			<step value="2" />
+			<step value="5" />
+		</pattern>
+	</scale>
+	<scale name="Warao Tetratonic">
+		<pattern>
+			<step value="2" />
+			<step value="1" />
+			<step value="7" />
+			<step value="2" />
+		</pattern>
+	</scale>
+	<scale name="Mantra of Will">
+		<pattern>
+			<step value="1" />
+			<step value="3" />
+			<step value="2" />
+			<step value="1" />
+			<step value="1" />
+			<step value="1" />
+			<step value="3" />
+		</pattern>
+	</scale>
+	<scale name="Peruvian Tritonic">
+		<pattern>
+			<step value="4" />
+			<step value="3" />
+			<step value="5" />
+		</pattern>
+	</scale>
+	<scale name="Blues">
+		<alternative name="Blues Minor (Six-tone)" />
+		<pattern>
+			<step value="3" />
+			<step value="2" />
+			<step value="1" />
+			<step value="1" />
+			<step value="3" />
+			<step value="2" />
+		</pattern>
+	</scale>
+	<scale name="Blues Modified">
+		<pattern>
+			<step value="2" />
+			<step value="1" />
+			<step value="2" />
+			<step value="1" />
+			<step value="1" />
+			<step value="3" />
+			<step value="2" />
+		</pattern>
+	</scale>
+	<scale name="Blues Major (Six-tone)">
+		<pattern>
+			<step value="2" />
+			<step value="1" />
+			<step value="1" />
+			<step value="3" />
+			<step value="2" />
+			<step value="3" />
+		</pattern>
+	</scale>
+	<scale name="Blues (Eight-tone)">
+		<pattern>
+			<step value="3" />
+			<step value="1" />
+			<step value="1" />
+			<step value="2" />
+			<step value="2" />
+			<step value="1" />
+			<step value="2" />
+		</pattern>
+	</scale>
+	<scale name="Blues (Nine-tone)">
+		<pattern>
+			<step value="2" />
+			<step value="1" />
+			<step value="1" />
+			<step value="1" />
+			<step value="1" />
+			<step value="1" />
+			<step value="2" />
+			<step value="1" />
+			<step value="2" />
+		</pattern>
+	</scale>
+	<scale name="Blues II">
+		<pattern>
+			<step value="2" />
+			<step value="1" />
+			<step value="2" />
+			<step value="1" />
+			<step value="1" />
+			<step value="2" />
+			<step value="1" />
+			<step value="2" />
+		</pattern>
+	</scale>
+	<scale name="Blues Nonatonic">
+		<pattern>
+			<step value="2" />
+			<step value="1" />
+			<step value="1" />
+			<step value="1" />
+			<step value="1" />
+			<step value="1" />
+			<step value="2" />
+			<step value="1" />
+			<step value="2" />
+		</pattern>
+	</scale>
+	<scale name="Bhairava">
+		<pattern>
+			<step value="1" />
+			<step value="3" />
+			<step value="3" />
+			<step value="1" />
+			<step value="4" />
+		</pattern>
+	</scale>
+	<scale name="Eight tone Spanish">
+		<pattern>
+			<step value="1" />
+			<step value="2" />
+			<step value="1" />
+			<step value="1" />
+			<step value="1" />
+			<step value="2" />
+			<step value="2" />
+			<step value="2" />
+		</pattern>
+	</scale>
+	<scale name="Mischung 2">
+		<alternative name="Ionian Sharp 5th" />
+		<pattern>
+			<step value="2" />
+			<step value="2" />
+			<step value="1" />
+			<step value="3" />
+			<step value="1" />
+			<step value="2" />
+			<step value="1" />
+		</pattern>
+	</scale>
+	<scale name="Hawaiian">
+		<alternative name="Hawaiian 1" />
+		<alternative name="Melodic Minor" />
+		<alternative name="Mischung 1" />
+		<pattern>
+			<step value="2" />
+			<step value="1" />
+			<step value="2" />
+			<step value="2" />
+			<step value="2" />
+			<step value="2" />
+			<step value="1" />
+		</pattern>
+	</scale>
+	<scale name="Hawaiian 2">
+		<pattern>
+			<step value="2" />
+			<step value="1" />
+			<step value="4" />
+			<step value="2" />
+			<step value="2" />
+			<step value="1" />
+		</pattern>
+	</scale>
+	<scale name="Yo">
+		<alternative name="Pentatonic Suspended" />
+		<pattern>
+			<step value="2" />
+			<step value="3" />
+			<step value="2" />
+			<step value="3" />
+			<step value="2" />
+		</pattern>
+	</scale>
+	<scale name="Zhi">
+		<alternative name="Scottish Pentatonic" />
+		<alternative name="Ritusen" />
+		<alternative name="Ujo" />
+		<pattern>
+			<step value="2" />
+			<step value="3" />
+			<step value="2" />
+			<step value="2" />
+			<step value="3" />
+		</pattern>
+	</scale>
+	<scale name="Chad Gadyo">
+		<alternative name="Ghana Pentatonic I" />
+		<pattern>
+			<step value="2" />
+			<step value="1" />
+			<step value="2" />
+			<step value="2" />
+			<step value="5" />
+		</pattern>
+	</scale>
+	<scale name="Symmetrical">
+		<alternative name="Inverted Diminished" />
+		<pattern>
+			<step value="1" />
+			<step value="2" />
+			<step value="1" />
+			<step value="2" />
+			<step value="1" />
+			<step value="2" />
+			<step value="1" />
+			<step value="2" />
+		</pattern>
+	</scale>
+	<scale name="Japanese In Sen">
+		<description>Can be used as a substitute for the Phrygian mode</description>
+		<pattern>
+			<step value="1" />
+			<step value="4" />
+			<step value="2" />
+			<step value="3" />
+			<step value="2" />
+		</pattern>
+	</scale>
+	<scale name="Ute Tritonic">
+		<pattern>
+			<step value="3" />
+			<step value="7" />
+			<step value="2" />
+		</pattern>
+	</scale>
+	<scale name="Hindu">
+		<pattern>
+			<step value="2" />
+			<step value="2" />
+			<step value="1" />
+			<step value="2" />
+			<step value="1" />
+			<step value="2" />
+			<step value="2" />
+		</pattern>
+	</scale>
+	<scale name="Symetrical">
+		<pattern>
+			<step value="1" />
+			<step value="2" />
+			<step value="1" />
+			<step value="2" />
+			<step value="1" />
+			<step value="2" />
+			<step value="1" />
+			<step value="2" />
+		</pattern>
+	</scale>
+	<scale name="Six-tone Symetrical">
+		<pattern>
+			<step value="1" />
+			<step value="3" />
+			<step value="1" />
+			<step value="3" />
+			<step value="1" />
+			<step value="3" />
+		</pattern>
+	</scale>
+	<scale name="Diminished">
+		<alternative name="Diminished Minor" />
+		<alternative name="Whole half step" />
+		<alternative name="Messiaen's mode 2 Inverse" />
+		<pattern>
+			<step value="2" />
+			<step value="1" />
+			<step value="2" />
+			<step value="1" />
+			<step value="2" />
+			<step value="1" />
+			<step value="2" />
+			<step value="1" />
+		</pattern>
+	</scale>
+	<scale name="Messiaen Mode 3">
+		<pattern>
+			<step value="1" />
+			<step value="1" />
+			<step value="2" />
+			<step value="1" />
+			<step value="1" />
+			<step value="2" />
+			<step value="1" />
+			<step value="1" />
+			<step value="2" />
+		</pattern>
+	</scale>
+	<scale name="Messiaen Mode 3 Inverse">
+		<pattern>
+			<step value="2" />
+			<step value="1" />
+			<step value="1" />
+			<step value="2" />
+			<step value="1" />
+			<step value="1" />
+			<step value="2" />
+			<step value="1" />
+			<step value="1" />
+		</pattern>
+	</scale>
+	<scale name="Messiaen Mode 4">
+		<pattern>
+			<step value="1" />
+			<step value="1" />
+			<step value="1" />
+			<step value="3" />
+			<step value="1" />
+			<step value="1" />
+			<step value="1" />
+			<step value="3" />
+		</pattern>
+	</scale>
+	<scale name="Messiaen Mode 4 Inverse">
+		<pattern>
+			<step value="3" />
+			<step value="1" />
+			<step value="1" />
+			<step value="1" />
+			<step value="3" />
+			<step value="1" />
+			<step value="1" />
+			<step value="1" />
+		</pattern>
+	</scale>
+	<scale name="Messiaen Mode 5">
+		<pattern>
+			<step value="1" />
+			<step value="1" />
+			<step value="4" />
+			<step value="1" />
+			<step value="1" />
+			<step value="4" />
+		</pattern>
+	</scale>
+	<scale name="Messiaen Mode 5 Inverse">
+		<pattern>
+			<step value="4" />
+			<step value="1" />
+			<step value="1" />
+			<step value="4" />
+			<step value="1" />
+			<step value="1" />
+		</pattern>
+	</scale>
+	<scale name="Messiaen Mode 6">
+		<pattern>
+			<step value="1" />
+			<step value="1" />
+			<step value="2" />
+			<step value="2" />
+			<step value="1" />
+			<step value="1" />
+			<step value="2" />
+			<step value="2" />
+		</pattern>
+	</scale>
+	<scale name="Messiaen Mode 6 Inverse">
+		<pattern>
+			<step value="2" />
+			<step value="2" />
+			<step value="1" />
+			<step value="1" />
+			<step value="2" />
+			<step value="2" />
+			<step value="1" />
+			<step value="1" />
+		</pattern>
+	</scale>
+	<scale name="Messiaen Mode 7">
+		<pattern>
+			<step value="1" />
+			<step value="1" />
+			<step value="1" />
+			<step value="1" />
+			<step value="2" />
+			<step value="1" />
+			<step value="1" />
+			<step value="1" />
+			<step value="1" />
+			<step value="2" />
+		</pattern>
+	</scale>
+	<scale name="Messiaen Mode 7 Inverse">
+		<pattern>
+			<step value="2" />
+			<step value="1" />
+			<step value="1" />
+			<step value="1" />
+			<step value="1" />
+			<step value="2" />
+			<step value="1" />
+			<step value="1" />
+			<step value="1" />
+			<step value="1" />
+		</pattern>
+	</scale>
+	<scale name="Leading whole tone">
+		<pattern>
+			<step value="2" />
+			<step value="2" />
+			<step value="2" />
+			<step value="2" />
+			<step value="2" />
+			<step value="1" />
+			<step value="1" />
+		</pattern>
+	</scale>
+	<scale name="Javanese">
+		<pattern>
+			<step value="1" />
+			<step value="2" />
+			<step value="2" />
+			<step value="2" />
+			<step value="2" />
+			<step value="1" />
+			<step value="2" />
+		</pattern>
+	</scale>
+	<scale name="Eskimo Hexatonic 1">
+		<alternative name="Hexatonic Minor" />
+		<pattern>
+			<step value="2" />
+			<step value="1" />
+			<step value="2" />
+			<step value="2" />
+			<step value="3" />
+			<step value="2" />
+		</pattern>
+	</scale>
+	<scale name="Eskimo Hexatonic 2">
+		<pattern>
+			<step value="2" />
+			<step value="2" />
+			<step value="2" />
+			<step value="2" />
+			<step value="3" />
+			<step value="1" />
+		</pattern>
+	</scale>
+	<scale name="Eskimo Tetratonic">
+		<pattern>
+			<step value="2" />
+			<step value="2" />
+			<step value="3" />
+			<step value="5" />
+		</pattern>
+	</scale>
+	<scale name="Niagari">
+		<pattern>
+			<step value="7" />
+			<step value="5" />
+		</pattern>
+	</scale>
+	<scale name="Overtone Dominant">
+		<alternative name="Overtone" />
+		<alternative name="Dominant Lydian" />
+		<alternative name="Mixolydian Sharp 4" />
+		<pattern>
+			<step value="2" />
+			<step value="2" />
+			<step value="2" />
+			<step value="1" />
+			<step value="2" />
+			<step value="1" />
+			<step value="2" />
+		</pattern>
+	</scale>
+	<scale name="Enigmatic">
+		<alternative name="Enigmatic Ascending" />
+		<pattern>
+			<step value="1" />
+			<step value="3" />
+			<step value="2" />
+			<step value="2" />
+			<step value="2" />
+			<step value="1" />
+			<step value="1" />
+		</pattern>
+	</scale>
+	<scale name="Enigmatic Descending">
+		<pattern>
+			<step value="1" />
+			<step value="3" />
+			<step value="1" />
+			<step value="3" />
+			<step value="2" />
+			<step value="1" />
+			<step value="1" />
+		</pattern>
+	</scale>
+	<scale name="Oriental">
+		<pattern>
+			<step value="1" />
+			<step value="3" />
+			<step value="1" />
+			<step value="1" />
+			<step value="3" />
+			<step value="1" />
+			<step value="2" />
+		</pattern>
+	</scale>
+	<scale name="Prometheus">
+		<pattern>
+			<step value="2" />
+			<step value="2" />
+			<step value="2" />
+			<step value="3" />
+			<step value="1" />
+			<step value="2" />
+		</pattern>
+	</scale>
+	<scale name="Prometheus Neapolitan">
+		<pattern>
+			<step value="1" />
+			<step value="3" />
+			<step value="2" />
+			<step value="3" />
+			<step value="1" />
+			<step value="2" />
+		</pattern>
+	</scale>
+	<scale name="Major Locrian">
+		<alternative name="Arabian" />
+		<pattern>
+			<step value="2" />
+			<step value="2" />
+			<step value="1" />
+			<step value="1" />
+			<step value="2" />
+			<step value="2" />
+			<step value="2" />
+		</pattern>
+	</scale>
+	<scale name="Locrian Natural 6th">
+		<alternative name="Locrian Sharp 6th" />
+		<pattern>
+			<step value="1" />
+			<step value="2" />
+			<step value="2" />
+			<step value="1" />
+			<step value="3" />
+			<step value="1" />
+			<step value="2" />
+		</pattern>
+	</scale>
+	<scale name="Locrian Natural 2nd">
+		<pattern>
+			<step value="2" />
+			<step value="1" />
+			<step value="2" />
+			<step value="1" />
+			<step value="2" />
+			<step value="2" />
+			<step value="2" />
+		</pattern>
+	</scale>
+	<scale name="Super Locrian">
+		<alternative name="Diminished Whole Tone" />
+		<alternative name="Ravel" />
+		<alternative name="Altered" />
+		<alternative name="Locrian Flat 4" />
+		<pattern>
+			<step value="1" />
+			<step value="2" />
+			<step value="1" />
+			<step value="2" />
+			<step value="2" />
+			<step value="2" />
+			<step value="2" />
+		</pattern>
+	</scale>
+	<scale name="Lydian Minor">
+		<pattern>
+			<step value="2" />
+			<step value="2" />
+			<step value="2" />
+			<step value="1" />
+			<step value="1" />
+			<step value="2" />
+			<step value="2" />
+		</pattern>
+	</scale>
+	<scale name="Locrian Flat Double Flat 7">
+		<alternative name="Ultra Locrian" />
+		<pattern>
+			<step value="1" />
+			<step value="2" />
+			<step value="1" />
+			<step value="2" />
+			<step value="2" />
+			<step value="1" />
+			<step value="3" />
+		</pattern>
+	</scale>
+	<scale name="Ghana Heptatonic">
+		<!--
+		<alternative name="Lydian" />
+		-->
+		<alternative name="Peruvian Major" />
+		<alternative name="4th Plagal Byzantine" />
+		<pattern>
+			<step value="2" />
+			<step value="2" />
+			<step value="2" />
+			<step value="1" />
+			<step value="2" />
+			<step value="2" />
+			<step value="1" />
+		</pattern>
+	</scale>
+	<scale name="Hungarian Major">
+		<pattern>
+			<step value="2" />
+			<step value="2" />
+			<step value="1" />
+			<step value="2" />
+			<step value="2" />
+			<step value="1" />
+			<step value="3" />
+		</pattern>
+	</scale>
+	<scale name="Hungarian Minor">
+		<pattern>
+			<step value="2" />
+			<step value="1" />
+			<step value="3" />
+			<step value="1" />
+			<step value="1" />
+			<step value="3" />
+			<step value="1" />
+		</pattern>
+	</scale>
+	<scale name="Hungarian Gypsy">
+		<pattern>
+			<step value="2" />
+			<step value="1" />
+			<step value="3" />
+			<step value="1" />
+			<step value="1" />
+			<step value="2" />
+			<step value="2" />
+		</pattern>
+	</scale>
+	<scale name="Double Harmonic">
+		<alternative name="Byzantine" />
+		<alternative name="Gypsy" />
+		<alternative name="Persian 2" />
+		<alternative name="Charhargah" />
+		<pattern>
+			<step value="1">
+				<mode name="Double Harmonic" />
+			</step>
+			<step value="3" />
+			<step value="1" />
+			<step value="2">
+				<mode name="Hungarian Minor" />
+			</step>
+			<step value="1">
+				<mode name="Oriental" />
+			</step>
+			<step value="3" />
+			<step value="1" />
+		</pattern>
+	</scale>
+	<scale name="Neapolitan Major">
+		<pattern>
+			<step value="1" />
+			<step value="2" />
+			<step value="2" />
+			<step value="2" />
+			<step value="2" />
+			<step value="2" />
+			<step value="1" />
+		</pattern>
+	</scale>
+	<scale name="Japanese Soft (Ascending)">
+		<pattern>
+			<step value="1" />
+			<step value="4" />
+			<step value="2" />
+			<step value="3" />
+			<step value="2" />
+		</pattern>
+	</scale>
+	<scale name="Japanese Soft (Descending)">
+		<alternative name="Japanese" />
+		<pattern>
+			<step value="1" />
+			<step value="4" />
+			<step value="2" />
+			<step value="1" />
+			<step value="4" />
+		</pattern>
+	</scale>
+	<scale name="Ritsu">
+		<pattern>
+			<step value="1" />
+			<step value="2" />
+			<step value="2" />
+			<step value="3" />
+			<step value="2" />
+			<step value="2" />
+</pattern>
+	</scale>
+	<scale name="Hochoshi">
+		<pattern>
+			<step value="5" />
+			<step value="7" />
+		</pattern>
+	</scale>
+	<scale name="Pentatonic Dominant 1">
+		<pattern>
+			<step value="3" />
+			<step value="2" />
+			<step value="2" />
+			<step value="3" />
+			<step value="2" />
+		</pattern>
+	</scale>
+	<scale name="Pentatonic Dominant 2">
+		<pattern>
+			<step value="2" />
+			<step value="2" />
+			<step value="3" />
+			<step value="3" />
+			<step value="2" />
+		</pattern>
+	</scale>
+	<scale name="Pentatonic Locrian">
+		<pattern>
+			<step value="1" />
+			<step value="2" />
+			<step value="3" />
+			<step value="2" />
+			<step value="4" />
+		</pattern>
+	</scale>
+	<scale name="Pentatonic Lydian">
+		<pattern>
+			<step value="2" />
+			<step value="2" />
+			<step value="2" />
+			<step value="3" />
+			<step value="2" />
+		</pattern>
+	</scale>
+	<scale name="Pentatonic Mixolydian">
+		<pattern>
+			<step value="4" />
+			<step value="1" />
+			<step value="2" />
+			<step value="3" />
+			<step value="2" />
+		</pattern>
+	</scale>
+	<scale name="Hirajoshi">
+		<alternative name="Pentatonic Aeolian" />
+		<pattern>
+			<step value="2" />
+			<step value="1" />
+			<step value="4" />
+			<step value="1" />
+			<step value="4" />
+		</pattern>
+	</scale>
+	<scale name="Hirajoshi 2">
+		<pattern>
+			<step value="4" />
+			<step value="1" />
+			<step value="2" />
+			<step value="4" />
+			<step value="1" />
+		</pattern>
+	</scale>
+	<scale name="Mohammedan">
+		<pattern>
+			<step value="2" />
+			<step value="1" />
+			<step value="2" />
+			<step value="2" />
+			<step value="1" />
+			<step value="3" />
+			<step value="1" />
+		</pattern>
+	</scale>
+	<scale name="Pelog">
+		<pattern>
+			<step value="1" />
+			<step value="2" />
+			<step value="4" />
+			<step value="1" />
+			<step value="4" />
+		</pattern>
+	</scale>
+	<scale name="Pelog 2">
+		<pattern>
+			<step value="1" />
+			<step value="2" />
+			<step value="4" />
+			<step value="3" />
+			<step value="2" />
+		</pattern>
+	</scale>
+	<scale name="Kumoi">
+		<pattern>
+			<step value="2" />
+			<step value="1" />
+			<step value="4" />
+			<step value="2" />
+			<step value="3" />
+		</pattern>
+	</scale>
+	<scale name="Kumoi 2">
+		<pattern>
+			<step value="3" />
+			<step value="2" />
+			<step value="1" />
+			<step value="4" />
+			<step value="2" />
+		</pattern>
+	</scale>
+	<scale name="Kyemyonojo">
+		<alternative name="Pentatonic Minor" />
+		<alternative name="Yu" />
+		<alternative name="Peruvian Pentatonic 2" />
+		<pattern>
+			<step value="3" />
+			<step value="2" />
+			<step value="2" />
+			<step value="3" />
+			<step value="2" />
+		</pattern>
+	</scale>
+	<scale name="Akebono 1">
+		<alternative name="Pentatonic Dorian"/>
+		<pattern>
+			<step value="2"/>
+			<step value="1"/>
+			<step value="4"/>
+			<step value="2"/>
+			<step value="3"/>
+		</pattern>
+	</scale>
+	<scale name="Harmonic Minor">
+		<alternative name="Mohamedan"/>
+		<alternative name="Spanish Gypsy"/>
+		<alternative name="Mischung 4"/>
+		<pattern>
+			<step value="2">
+				<mode name="Harmonic Minor" />
+			</step>
+			<step value="1"/>
+			<step value="2"/>
+			<step value="2">
+				<mode name="Romanian"/>
+			</step>
+			<step value="1">
+				<mode name="Spanish Gypsy"/>
+			</step>
+			<step value="3"/>
+			<step value="1"/>
+		</pattern>
+	</scale>
+	<scale name="Pentatonic Minor">
+		<pattern>
+			<step value="3"/>
+			<step value="2"/>
+			<step value="2"/>
+			<step value="3"/>
+			<step value="2"/>
+		</pattern>
+	</scale>
+	<scale name="Ahava Raba">
+		<alternative name="Jewish" />
+		<alternative name="Major Phyrgian" />
+		<alternative name="Phrygian Natural 3rd (Sharp 3rd)" />
+		<alternative name="Spanish" />
+		<alternative name="Flamenco II" />
+		<pattern>
+			<step value="1" />
+			<step value="3" />
+			<step value="1" />
+			<step value="2" />
+			<step value="1" />
+			<step value="2" />
+			<step value="2" />
+		</pattern>
+	</scale>
+	<scale name="Algerian (1st Octave)">
+		<alternative name="Algeria" />
+		<alternative name="Algerian Minor"/>
+		<pattern>
+			<step value="2"/>
+			<step value="1"/>
+			<step value="3"/>
+			<step value="1"/>
+			<step value="1"/>
+			<step value="3"/>
+			<step value="1"/>			
+		</pattern>
+	</scale>
+	<scale name="Algerian (2nd Octave)">
+		<alternative name="Aeolian" />
+		<alternative name="Minor" />
+		<alternative name="Peruvian Minor" />
+		<pattern>
+			<step value="2"/>
+			<step value="1"/>
+			<step value="2"/>
+			<step value="2"/>
+			<step value="1"/>
+			<step value="2"/>
+			<step value="2"/>			
+		</pattern>
+	</scale>
+	<scale name="Altered">
+		<alternative name="Ravel" />
+		<alternative name="Super Locrian" />
+		<alternative name="Diminshed Whole Tone" />
+		<alternative name="Locrian Flat 4" />
+		<pattern>
+			<step value="1"/>
+			<step value="2"/>
+			<step value="1"/>
+			<step value="2"/>
+			<step value="2"/>
+			<step value="2"/>
+			<step value="2"/>
+		</pattern>
+	</scale>
+	<scale name="Altered Dominant">
+		<pattern>
+			<step value="1"/>
+			<step value="2"/>
+			<step value="1"/>
+			<step value="2"/>
+			<step value="1"/>
+			<step value="2"/>
+			<step value="1"/>
+			<step value="2"/>
+		</pattern>
+	</scale>
+	<scale name="Flamenco">
+		<alternative name="Spanish Phrygian" />
+		<pattern>
+			<step value="1"/>
+			<step value="2"/>
+			<step value="1"/>
+			<step value="1"/>
+			<step value="2"/>
+			<step value="1"/>
+			<step value="2"/>
+			<step value="2"/>
+		</pattern>
+	</scale>
+	<scale name="Four Semitone">
+		<pattern>
+			<step value="4"/>
+			<step value="4"/>
+			<step value="4"/>
+		</pattern>
+	</scale>
+	<scale name="Whole tone">
+		<alternative name="Hexatonic Anhemitonic" />
+		<alternative name="Messiaen's Mode 1" />
+		<pattern>
+			<step value="2"/>
+			<step value="2"/>
+			<step value="2"/>
+			<step value="2"/>
+			<step value="2"/>
+			<step value="2"/>
+		</pattern>
+	</scale>
+	<scale name="Sansagari">
+		<pattern>
+			<step value="5"/>
+			<step value="5"/>
+			<step value="2"/>
+		</pattern>
+	</scale>
+	<scale name="Dorian Sharp 4th">
+		<alternative name="Misheberekh" />
+		<alternative name="Romanian" />
+		<pattern>
+			<step value="2"/>
+			<step value="1"/>
+			<step value="3"/>
+			<step value="1"/>
+			<step value="2"/>
+			<step value="1"/>
+			<step value="2"/>
+		</pattern>
+	</scale>
+	<scale name="Half whole tone">
+		<alternative name="Diminished Dominant" />
+		<alternative name="Octatonic" />
+		<alternative name="Messiaen's Mode 2" />
+		<alternative name="Half-Whole Step" />
+		<pattern>
+			<step value="1"/>
+			<step value="2"/>
+			<step value="1"/>
+			<step value="2"/>
+			<step value="1"/>
+			<step value="2"/>
+			<step value="1"/>
+			<step value="2"/>
+		</pattern>
+	</scale>
+	<scale name="Half Diminshed">
+		<alternative name="Locrian Minor" />
+		<alternative name="Locrian Sharp 2nd" />
+		<alternative name="Minor flat 5" />
+		<pattern>
+			<step value="2" />
+			<step value="1" />
+			<step value="2" />
+			<step value="1" />
+			<step value="2" />
+			<step value="2" />
+			<step value="2" />
+		</pattern>
+	</scale>
+	<scale name="Bebop Half Diminshed">
+		<pattern>
+			<step value="1" />
+			<step value="2" />
+			<step value="2" />
+			<step value="1" />
+			<step value="1" />
+			<step value="1" />
+			<step value="3" />
+			<step value="1" />
+		</pattern>
+	</scale>
+	<scale name="Bebop Minor">
+		<pattern>
+			<step value="2" />
+			<step value="1" />
+			<step value="1" />
+			<step value="1" />
+			<step value="2" />
+			<step value="2" />
+			<step value="1" />
+			<step value="2" />
+		</pattern>
+	</scale>
+	<scale name="Three Semitone">
+		<pattern>
+			<step value="3" />
+			<step value="3" />
+			<step value="3" />
+			<step value="3" />
+		</pattern>
+	</scale>
+	<scale name="Mixo-Blues">
+		<pattern>
+			<step value="3" />
+			<step value="1" />
+			<step value="1" />
+			<step value="1" />
+			<step value="1" />
+			<step value="3" />
+			<step value="2" />
+		</pattern>
+	</scale>
+	<scale name="Blues v1">
+		<pattern>
+			<step value="3" />
+			<step value="2" />
+			<step value="1" />
+			<step value="1" />
+			<step value="3" />
+			<step value="1" />
+			<step value="1" />
+		</pattern>
+	</scale>
+	<scale name="Blues v2">
+		<pattern>
+			<step value="3" />
+			<step value="1" />
+			<step value="1" />
+			<step value="1" />
+			<step value="1" />
+			<step value="3" />
+			<step value="1" />
+			<step value="1" />
+		</pattern>
+	</scale>
+	<scale name="Blues v3">
+		<pattern>
+			<step value="3" />
+			<step value="1" />
+			<step value="1" />
+			<step value="1" />
+			<step value="1" />
+			<step value="2" />
+			<step value="1" />
+			<step value="1" />
+			<step value="1" />
+		</pattern>
+	</scale>
+	<scale name="Arabian">
+		<pattern>
+			<step value="2"/>
+			<step value="1"/>
+			<step value="2"/>
+			<step value="1"/>
+			<step value="2"/>
+			<step value="1"/>
+			<step value="2"/>
+			<step value="1"/>
+		</pattern>
+	</scale>
+	<scale name="Augmented">
+		<alternative name="Genus Tertium" />
+		<alternative name="Messiaens Truncated Mode 3 Inverse" />
+		<alternative name="Minor 2nd Minor 3rd" />
+		<pattern>
+			<step value="3"/>
+			<step value="1"/>
+			<step value="3"/>
+			<step value="1"/>
+			<step value="3"/>
+			<step value="1"/>
+		</pattern>
+	</scale>
+	<scale name="Balinese">
+		<alternative name="Pentatonic Phrygian" />
+		<pattern>
+			<step value="1" />
+			<step value="2" />
+			<step value="4" />
+			<step value="1" />
+			<step value="4" />
+		</pattern>
+	</scale>
+	<scale name="Bebop Dominant">
+		<alternative name="Genus Diatonicum" />
+		<alternative name="Chinese Eight Tone" />
+		<pattern>
+			<step value="2" />
+			<step value="2" />
+			<step value="1" />
+			<step value="2" />
+			<step value="2" />
+			<step value="1" />
+			<step value="1" />
+			<step value="1" />
+		</pattern>
+	</scale>
+	<scale name="Scriabin">
+		<pattern>
+			<step value="1"/>
+			<step value="3"/>
+			<step value="3"/>
+			<step value="2"/>
+			<step value="3"/>
+		</pattern>
+	</scale>
+	<scale name="Genus Primum">
+		<pattern>
+			<step value="2"/>
+			<step value="3"/>
+			<step value="2"/>
+			<step value="5"/>
+		</pattern>
+	</scale>
+	<scale name="Genus Diatonicum Veterum Correctum ">
+		<pattern>
+			<step value="2"/>
+			<step value="2"/>
+			<step value="1"/>
+			<step value="1"/>
+			<step value="1"/>
+			<step value="2"/>
+			<step value="2"/>
+			<step value="1"/>
+		</pattern>
+	</scale>
+	<scale name="Genus Secundum">
+		<pattern>
+			<step value="4"/>
+			<step value="1"/>
+			<step value="2"/>
+			<step value="2"/>
+			<step value="2"/>
+			<step value="1"/>
+		</pattern>
+	</scale>
+	<scale name="Genus Chromaticum">
+		<pattern>
+			<step value="1"/>
+			<step value="2"/>
+			<step value="1"/>
+			<step value="1"/>
+			<step value="2"/>
+			<step value="1"/>
+			<step value="1"/>
+			<step value="2"/>
+			<step value="1"/>
+		</pattern>
+	</scale>
+	<scale name="Iwato">
+		<pattern>
+			<step value="1"/>
+			<step value="4"/>
+			<step value="1"/>
+			<step value="4"/>
+			<step value="2"/>
+		</pattern>
+	</scale>
+	<scale name="Indian">
+		<pattern>
+			<step value="4"/>
+			<step value="1"/>
+			<step value="2"/>
+			<step value="3"/>
+			<step value="2"/>
+		</pattern>
+	</scale>
+	<scale name="Neapolitan Minor">
+		<pattern>
+			<step value="1"/>
+			<step value="2"/>
+			<step value="2"/>
+			<step value="2"/>
+			<step value="1"/>
+			<step value="3"/>
+			<step value="1"/>
+		</pattern>
+	</scale>
+	<scale name="Marva (Raga)">
+		<pattern>
+			<step value="1"/>
+			<step value="3"/>
+			<step value="2"/>
+			<step value="1"/>
+			<step value="2"/>
+			<step value="2"/>
+			<step value="1"/>
+		</pattern>
+	</scale>
+	<scale name="Persian">
+		<pattern>
+			<step value="1"/>
+			<step value="3"/>
+			<step value="1"/>
+			<step value="1"/>
+			<step value="2"/>
+			<step value="3"/>
+			<step value="1"/>
+		</pattern>
+	</scale>
+	<scale name="Mixolydian Augmented">
+		<pattern>
+			<step value="2"/>
+			<step value="2"/>
+			<step value="1"/>
+			<step value="3"/>
+			<step value="1"/>
+			<step value="1"/>
+			<step value="2"/>
+		</pattern>
+	</scale>
+	<scale name="Harmonic Major">
+		<pattern>
+			<step value="2"/>
+			<step value="2"/>
+			<step value="1"/>
+			<step value="2"/>
+			<step value="1"/>
+			<step value="3"/>
+			<step value="1"/>
+		</pattern>
+	</scale>
+	<scale name="Harmonic Major Inverse">
+		<pattern>
+			<step value="1"/>
+			<step value="3"/>
+			<step value="1"/>
+			<step value="2"/>
+			<step value="2"/>
+			<step value="1"/>
+			<step value="2"/>
+		</pattern>
+	</scale>
+	<scale name="Chinese">
+		<pattern>
+			<step value="4"/>
+			<step value="2"/>
+			<step value="1"/>
+			<step value="4"/>
+			<step value="1"/>
+		</pattern>
+	</scale>
+	<scale name="Chinese 2">
+		<pattern>
+			<step value="4"/>
+			<step value="2"/>
+			<step value="1"/>
+			<step value="4"/>
+			<step value="1"/>
+		</pattern>
+	</scale>
+	<scale name="Ethiopian">
+		<pattern>
+			<step value="2"/>
+			<step value="2"/>
+			<step value="1"/>
+			<step value="2"/>
+			<step value="1"/>
+			<step value="3"/>
+			<step value="1"/>
+		</pattern>
+	</scale>
+	<scale name="Dominant Bebop">
+		<pattern>
+			<step value="2"/>
+			<step value="2"/>
+			<step value="1"/>
+			<step value="2"/>
+			<step value="2"/>
+			<step value="1"/>
+			<step value="1"/>
+			<step value="1"/>
+		</pattern>
+	</scale>
+	<scale name="Dominant Pentatonic">
+		<pattern>
+			<step value="2"/>
+			<step value="2"/>
+			<step value="3"/>
+			<step value="3"/>
+			<step value="3"/>
+		</pattern>
+	</scale>
+	<scale name="Phrygian Dominant">
+		<pattern>
+			<step value="1" />
+			<step value="3" />
+			<step value="1" />
+			<step value="2" />
+			<step value="1" />
+			<step value="2" />
+			<step value="2" />
+		</pattern>
+	</scale>
+	<scale name="Jazz Minor Inverse">
+		<alternative name="Phrygian Sharp 6" />
+		<pattern>
+			<step value="1" />
+			<step value="2" />
+			<step value="2" />
+			<step value="2" />
+			<step value="2" />
+			<step value="1" />
+			<step value="2" />
+		</pattern>
+	</scale>
+	<scale name="Lydian Dominant">
+		<pattern>
+			<step value="1" />
+			<step value="2" />
+			<step value="1" />
+			<step value="2" />
+			<step value="2" />
+			<step value="2" />
+			<step value="2" />
+		</pattern>
+	</scale>
+	<scale name="Lydian Diminished">
+		<pattern>
+			<step value="2" />
+			<step value="2" />
+			<step value="2" />
+			<step value="1" />
+			<step value="2" />
+			<step value="1" />
+			<step value="2" />
+		</pattern>
+	</scale>
+	<scale name="Ionian Augmented">
+		<pattern>
+			<step value="2" />
+			<step value="2" />
+			<step value="1" />
+			<step value="3" />
+			<step value="1" />
+			<step value="2" />
+			<step value="1" />
+		</pattern>
+	</scale>
+	<!--
+	<scale name="Melodic Major">
+	</scale>
+	<scale name="Dominant 7th">
+	</scale>
+	-->
+	<!-- chords section -->
+	<chord name="Major">
+		<interval>1</interval>
+		<interval>3</interval>
+		<interval>5</interval>
+	</chord>
+	<chord name="Major 7">
+		<interval>1</interval>
+		<interval>3</interval>
+		<interval>5</interval>
+		<interval>7</interval>
+	</chord>
+	<chord name="Major 6th">
+		<interval>1</interval>
+		<interval>3</interval>
+		<interval>5</interval>
+		<interval>6</interval>
+	</chord>
+	<chord name="Major 6th added 9th">
+		<alternative name="6/9"/>
+		<interval>1</interval>		
+		<interval>3</interval>
+		<interval>5</interval>
+		<interval>6</interval>
+		<interval>9</interval>
+	</chord>
+	<chord name="Major added 9th">
+		<interval>1</interval>
+		<interval>3</interval>
+		<interval>5</interval>
+		<interval>9</interval>
+	</chord>
+	<chord name="Major 9th">
+		<interval>1</interval>
+		<interval>3</interval>
+		<interval>5</interval>
+		<interval>7</interval>
+		<interval>9</interval>
+	</chord>
+	<chord name="Major 11th">
+		<interval>1</interval>
+		<interval>3</interval>
+		<interval>5</interval>
+		<interval>7</interval>
+		<interval optional="true">9</interval>
+		<interval>11</interval>
+	</chord>
+	<chord name="Major 13th">
+		<interval>1</interval>
+		<interval>3</interval>
+		<interval>5</interval>
+		<interval>7</interval>
+		<interval optional="true">9</interval>
+		<interval>11</interval>
+		<interval>13</interval>
+	</chord>
+	<chord name="Major 7b5">
+		<alternative name="Major 7#11th"/>
+		<interval>1</interval>
+		<interval>3</interval>
+		<interval>b5</interval>
+		<interval>7</interval>
+	</chord>
+	<chord name="Minor">
+		<interval>1</interval>
+		<interval>b3</interval>
+		<interval>5</interval>
+	</chord>
+	<chord name="Minor 7th">
+		<interval>1</interval>
+		<interval>b3</interval>
+		<interval>5</interval>
+		<interval>b7</interval>
+	</chord>
+	<chord name="Minor added 9th">
+		<interval>1</interval>
+		<interval>b3</interval>
+		<interval>5</interval>
+		<interval>9</interval>
+	</chord>
+	<chord name="Minor 6th">
+		<interval>1</interval>
+		<interval>b3</interval>
+		<interval>5</interval>
+		<interval>6</interval>
+	</chord>
+	<chord name="Minor 6th added 9th">
+		<interval>1</interval>
+		<interval>b3</interval>
+		<interval>5</interval>
+		<interval>6</interval>
+		<interval>9</interval>
+	</chord>
+	<chord name="Minor 9th">
+		<interval>1</interval>
+		<interval>b3</interval>
+		<interval>5</interval>
+		<interval>b7</interval>
+		<interval>9</interval>
+	</chord>
+	<chord name="Minor 11th">
+		<interval>1</interval>
+		<interval>b3</interval>
+		<interval>5</interval>
+		<interval>b7</interval>
+		<interval>9</interval>
+		<interval>11</interval>
+	</chord>
+	<chord name="Minor 13th">
+		<interval>1</interval>
+		<interval>b3</interval>
+		<interval>5</interval>
+		<interval>b7</interval>
+		<interval>9</interval>
+		<interval>11</interval>
+		<interval>13</interval>
+	</chord>
+	<chord name="Minor 7b5">
+		<interval>1</interval>
+		<interval>b3</interval>
+		<interval>b5</interval>
+		<interval>b7</interval>
+	</chord>
+	<chord name="Minor raised 7th">
+		<alternative name="+7"/>
+		<alternative name="Min/Maj 7th"/>
+		<interval>1</interval>
+		<interval>b3</interval>
+		<interval>5</interval>
+		<interval>7</interval>
+	</chord>
+	<chord name="Minor suspended">
+		<interval>1</interval>
+		<interval>b3</interval>
+		<interval>4</interval>
+		<interval>5</interval>
+	</chord>
+	<chord name="Dom 7th">
+		<interval>1</interval>
+		<interval>3</interval>
+		<interval>5</interval>
+		<interval>b7</interval>
+	</chord>
+	<chord name="9th">
+		<alternative name="Dom 9th"/>
+		<interval>1</interval>
+		<interval>3</interval>
+		<interval>5</interval>
+		<interval>b7</interval>
+		<interval>9</interval>
+	</chord>
+	<chord name="9#5">
+		<interval>1</interval>
+		<interval>3</interval>
+		<interval>#5</interval>
+		<interval>b7</interval>
+		<interval>9</interval>
+	</chord>
+	<chord name="11th">
+		<alternative name="Dom 11th"/>
+		<interval>1</interval>
+		<interval>3</interval>
+		<interval>5</interval>
+		<interval>b7</interval>
+		<interval>9</interval>
+		<interval>11</interval>
+	</chord>
+	<chord name="13th">
+		<alternative name="Dom 13th"/>
+		<interval>1</interval>
+		<interval>3</interval>
+		<interval>5</interval>
+		<interval>b7</interval>
+		<interval>9</interval>
+		<interval>13</interval>
+	</chord>
+	<chord name="Dom 7#5">
+		<alternative name="Aug min 7th"/>
+		<alternative name="7th Aug 5th"/>
+		<interval>1</interval>
+		<interval>3</interval>
+		<interval>#5</interval>
+		<interval>b7</interval>
+	</chord>
+	<chord name="Dom 7b5">
+		<interval>1</interval>
+		<interval>3</interval>
+		<interval>b5</interval>
+		<interval>b7</interval>
+	</chord>
+	<chord name="Dom 7b9">
+		<interval>1</interval>
+		<interval>3</interval>
+		<interval>5</interval>
+		<interval>b7</interval>
+		<interval>b9</interval>
+	</chord>
+	<chord name="Dom 7#9">
+		<interval>1</interval>
+		<interval>3</interval>
+		<interval>5</interval>
+		<interval>b7</interval>
+		<interval>#9</interval>
+	</chord>
+	<chord name="Dom 7#11">
+		<interval>1</interval>
+		<interval>3</interval>
+		<interval>5</interval>
+		<interval>b7</interval>
+		<interval>9</interval>
+		<interval>#11</interval>
+	</chord>
+	<chord name="Augmented">
+		<interval>1</interval>
+		<interval>3</interval>
+		<interval>#5</interval>
+	</chord>
+	<chord name="Augmented Major 7th">
+		<interval>1</interval>
+		<interval>3</interval>
+		<interval>#5</interval>
+		<interval>7</interval>
+	</chord>
+	<chord name="Diminished 7th">
+		<aternative name="Diminished"/>
+		<interval>1</interval>
+		<interval>b3</interval>
+		<interval>b5</interval>
+		<!--
+		<interval>bb7</interval>
+		-->
+		<interval>6</interval>
+	</chord>
+	<chord name="9th Diminished 5th">
+		<interval>1</interval>
+		<interval>3</interval>
+		<interval>b5</interval>
+		<interval>b7</interval>
+		<interval>9</interval>
+	</chord>
+	<chord name="Suspended 4th">
+		<interval>1</interval>
+		<interval optional="true">3</interval>
+		<interval>4</interval>
+		<interval>5</interval>
+	</chord>
+	<chord name="7th Suspended 4th">
+		<interval>1</interval>
+		<interval>4</interval>
+		<interval>5</interval>
+		<interval>b7</interval>
+	</chord>
+	<chord name="9th Suspended 4th">
+		<interval>1</interval>
+		<interval>4</interval>
+		<interval optional="true">5</interval>
+		<interval>b7</interval>
+		<interval>9</interval>
+	</chord>
+	<chord name="5">
+		<interval>1</interval>
+		<interval>5</interval>
+	</chord>
+</theory>
