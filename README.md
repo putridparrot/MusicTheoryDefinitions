@@ -1,4 +1,4 @@
-# MusicTheory
+# Music Theory Definitions
 Xml configuration file for musical theory
 
 Many years back a colleague and I wrote a Windows Pocket PC application for displaying scales and chords on a guitar style fretboard and piano keys.
